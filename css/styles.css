@@ -4,18 +4,114 @@
 
 /* Color Palette */
 
+.color-1 {
+    background: forestgreen;
+}
+.color-2 {
+    background: #3366cc;
+}
+.color-3 {
+    background: #000;
+}
+
 
 /* Textures or Patterns*/
+.pattern-1 {
+    
+    background: url("../img/fabric.png") no-repeat;
+    background-size: contain;
+}
+
+.pattern-1 img {
+    height: 98px;
+}
+
+.pattern-2 {
+    
+    background: url("../img/mochaGrunge.png") no-repeat;
+    background-size: cover;
+}
 
 
 /* Imagery */
+.imagery-1 {
+}
+.imagery-2 {
+}
 
 
 /* Icons */
 
 
 /* Navigation */
+nav {  
+padding: 0.3%;
+margin: 0% 0% 1% 0;
+color: forestgreen;
+}
 
+.nav {
+ text-align: center;
+}
+
+.nav a {
+ text-align: center;
+ padding: 0.3%;
+ margin: 0% 0% 1% 0;
+ text-decoration: none;
+  color: forestgreen;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+  transition: 200ms ease-in-out;
+  padding: 8px 16px 7px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+  transition: 200ms ease-in-out;
+  padding: 8px 16px 7px;
+}
+
+.nav li a:hover {
+  background: darkolivegreen;
+  color: #fff;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+button {
+    background: forestgreen;
+    color: black;
+        padding: .5em;
+    border: 2px solid black;
+    border-radius: 15px;
+}
 
 /* Typography */
+.prime {
+    font-family: arial;
+    font-size: 20pt;
+}
 
+.secondary {
+    font-family: arial;
+    font-style: italic;
+    color: forestgreen;
+    font-size: 16pt;
+}
+
+.paragraphs {
+    font-family: arial;
+    font-size: 11pt;
+} 
